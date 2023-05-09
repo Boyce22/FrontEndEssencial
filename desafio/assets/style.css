@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background-image: linear-gradient(to right bottom, #0eb2fa, #009dff, #2185fd, #5d67f2, #883edb);
+}
+
+.container .pag-main {
+    background: #e6e6e6;
+    width: 54%;
+    box-sizing: border-box;
+    margin: auto;
+    height: 61rem;
+    border-radius: 3rem;
+    overflow: hidden;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 10rem;
+    margin-right: 30%;
+}
+
+.circle-r {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.circle-y {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.circle-v {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.container-circle {
+    display: flex;
+    position: relative;
+    padding-top: 1.2rem;
+    padding-left: 2.2rem;
+    gap: 1rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.nav-part1 {
+    width: 13rem;
+    height: 4.5rem;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0.7rem;
+    border-radius: 0.3rem;
+}
+
+.nav-part3 {
+    width: 13rem;
+    height: 4.5rem;
+    background-color: rgb(255, 255, 255);
+    margin-right: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.nav-part2 {
+    width: 34.5rem;
+    height: 4.5rem;
+    background-color: rgb(255, 255, 255);
+    margin: 0 0.2rem;
+    border-radius: 0.3rem;
+}
+
+.top-content {
+    padding-top: 1.1rem;
+    display: flex;
+    margin-left: 0.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.content2,
+.content3,
+.content4,
+.content5,
+.content6 {
+    width: 36.5rem;
+    height: 4.5rem;
+    background-color: rgb(255, 255, 255);
+    margin: 0 0.2rem;
+    border-radius: 0.3rem;
+}
+
+.content1{
+    width: 36.5rem;
+    height: 4.5rem;
+    margin: 0 0.2rem;
+    border-radius: 0.3rem;
+    background-color: aqua;
+}
+
+.container-lateral {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    float: right;
+    width: 30%;
+    padding-top: 1rem;
+}
+
+.content-lateral2,
+.content-lateral4,
+.content-lateral6,
+.content-lateral8 {
+    width: 16.5rem;
+    height: 7.4rem;
+    margin: 0 0.2rem;
+    border-radius: 0.3rem;
+    background-color: rgb(255, 255, 255);
+
+}
+.content-lateral3,
+.content-lateral5,
+.content-lateral7,
+.content-lateral9 {
+    width: 16.5rem;
+    height: 1.4rem;
+    margin: 0 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.movie-container {
+    width: 70%;
+}
+
+.movie {
+    position: relative;
+    width: 100%;
+    margin: 1vh;
+    height: 20.5rem;
+    margin-top: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.mini-content1,
+.mini-content2,
+.mini-content3,
+.mini-content4 {
+    width: 16.5rem;
+    height: 4.4rem;
+    margin: 0 0.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    background-color: aqua;
+}
+
+.container-minicontent {
+    display: flex;
+    padding-left: 0.5rem;
+    width: 100%;
+}
+
+.footer{
+    width: 70%;
+}
+
+.content-footer1,
+.content-footer2,
+.content-footer3,
+.content-footer4,
+.content-footer5,
+.content-footer6,
+.content-footer7 {
+    width: 100%;
+    height: 1rem;
+    margin: 0 0.4rem;
+    margin-top: 1.1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    background-color: rgb(255, 255, 255);
+}
