@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(/clone-netflix/assets/images/netflix.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+}
+
+.text-netflix h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 3vh;
+    color: #e50914;
+}
+
+.container-netflix img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header {
+    top: 0;
+    display: flex;
+    position: absolute;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    padding-top: 1rem;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.text-language {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-infonet {
+    padding: 3rem;
+}
+
+
+.text-language .entrar {
+    background: red;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 500;
+    margin-right: 20px;
+    outline: none;
+    padding: 9px 13px;
+    position: relative;
+    border-radius: 9px;
+    top: -2px;
+}
+
+
+.text-main {
+    position: relative;
+    top: 50%;
+    left: 49rem;
+    transform: translate(-60rem, 20vh);
+    padding-left: 14%;
+    margin-bottom: 32vh;
+}
+
+.text-main h1 {
+    font-size: 5.5rem;
+    line-height: 6.25rem;
+    font-weight: 800;
+}
+
+.text-main h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+}
+
+.text-main h4 {
+    font-size: 1.2em;
+    padding-bottom: 0.6em;
+}
+
+.content-main input {
+    padding: 1.5rem 1rem 0.5rem;
+    width: 25rem;
+    background: #060606c7;
+    border: 0.1em solid #9d9d9d;
+    border-radius: 8px;
+}
+
+.content-main input::placeholder {
+    font-size: 1.6vh;
+    color: aliceblue;
+}
+
+.content-main button {
+    padding: 0.5rem 0.5rem 0.5rem;
+    background: rgb(193, 17, 25);
+    border: none;
+    border-radius: 0.3rem;
+    width: 7.5rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.box-email {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+}
+main {
+    min-height: 100vh;
+}
+
+.info1,
+.info2,
+.info3,
+.info4 {
+    width: 445px;
+    height: 354px;
+    border-radius: 13px;
+    background-image: linear-gradient(to right bottom, #790c2f, #700834, #670738, #5c083b, #510b3d, #4a0c3f, #420d40, #3a0e41, #340e43, #2c0e45, #230f47, #181049);
+}
+
+.info1 img,
+.info2 img,
+.info3 img,
+.info4 img {
+    width: 7.3rem;
+}
+
+.container-info {
+    display: flex;
+    position: relative;
+    gap: 1.5vh;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+}
